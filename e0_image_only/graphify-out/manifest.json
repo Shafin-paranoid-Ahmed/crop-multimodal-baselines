@@ -1,0 +1,248 @@
+{
+  "canonical/e0_bs768_mobilenetv3large_class_mapping.json": {
+    "mtime": 1780353637.4085915,
+    "seen": 1790932825.612956,
+    "ast_hash": "12eb0a5f900e62a122041a0115eafdd7",
+    "semantic_hash": ""
+  },
+  "canonical/e0_bs768_mobilenetv3large_config.json": {
+    "mtime": 1780437386.9908423,
+    "seen": 1790932825.612956,
+    "ast_hash": "9ee1424be6e6b721e9356159045cb2bf",
+    "semantic_hash": ""
+  },
+  "canonical/e0_bs768_mobilenetv3large_data_audit.json": {
+    "mtime": 1780353637.2983007,
+    "seen": 1790932825.612956,
+    "ast_hash": "c5e18c1cff87e605d0c1c79f779df374",
+    "semantic_hash": ""
+  },
+  "canonical/e0_bs768_mobilenetv3large_metrics.json": {
+    "mtime": 1780437386.9898336,
+    "seen": 1790932825.612956,
+    "ast_hash": "b34d20c67579f41c72b9fc2bde3f9db8",
+    "semantic_hash": ""
+  },
+  "canonical/e0_bs768_mobilenetv3large_ood_corruptions.json": {
+    "mtime": 1780435403.1049984,
+    "seen": 1790932825.612956,
+    "ast_hash": "8c8175738d9e3ea07ce6fe38878ae7d1",
+    "semantic_hash": ""
+  },
+  "config.py": {
+    "mtime": 1780343619.9708464,
+    "seen": 1790932825.612956,
+    "ast_hash": "dc9380950be1939f0866c4a088254a60",
+    "semantic_hash": ""
+  },
+  "learning/evaluate_ood_corruptions.py": {
+    "mtime": 1780450579.6942947,
+    "seen": 1790932825.612956,
+    "ast_hash": "b00c01de0f6b7699c3190dffc98f732f",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_manual_bs768_w0_20260602_class_mapping.json": {
+    "mtime": 1780353637.4085915,
+    "seen": 1790932825.612956,
+    "ast_hash": "12eb0a5f900e62a122041a0115eafdd7",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_manual_bs768_w0_20260602_config.json": {
+    "mtime": 1780353637.4085915,
+    "seen": 1790932825.612956,
+    "ast_hash": "760bae24296deb8c1a56ef3026e834be",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_manual_bs768_w0_20260602_data_audit.json": {
+    "mtime": 1780353637.2983007,
+    "seen": 1790932825.612956,
+    "ast_hash": "c5e18c1cff87e605d0c1c79f779df374",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_manual_bs768_w0_20260602_metrics.json": {
+    "mtime": 1780363774.3317158,
+    "seen": 1790932825.612956,
+    "ast_hash": "15789aed5c05f70bf8184ef750cec5fd",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_manual_bs768_w0_20260602_ood_corruptions.json": {
+    "mtime": 1780435403.1049984,
+    "seen": 1790932825.612956,
+    "ast_hash": "8c8175738d9e3ea07ce6fe38878ae7d1",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_e1_policy_class_mapping.json": {
+    "mtime": 1780295133.0618463,
+    "seen": 1790932825.612956,
+    "ast_hash": "12eb0a5f900e62a122041a0115eafdd7",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_e1_policy_config.json": {
+    "mtime": 1780295133.0618463,
+    "seen": 1790932825.612956,
+    "ast_hash": "53456b4cec95367b803dd86a29a73dab",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_e1_policy_data_audit.json": {
+    "mtime": 1780295132.950194,
+    "seen": 1790932825.612956,
+    "ast_hash": "c5e18c1cff87e605d0c1c79f779df374",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_e1_policy_opt_unfreeze2_amp_class_mapping.json": {
+    "mtime": 1780295535.303379,
+    "seen": 1790932825.612956,
+    "ast_hash": "12eb0a5f900e62a122041a0115eafdd7",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_e1_policy_opt_unfreeze2_amp_config.json": {
+    "mtime": 1780295535.303379,
+    "seen": 1790932825.612956,
+    "ast_hash": "3792f61bf07ee17233085acd9f6324f9",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_e1_policy_opt_unfreeze2_amp_data_audit.json": {
+    "mtime": 1780295535.195122,
+    "seen": 1790932825.612956,
+    "ast_hash": "c5e18c1cff87e605d0c1c79f779df374",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_gpu_bs128_unfreeze2_amp_class_mapping.json": {
+    "mtime": 1780296072.793771,
+    "seen": 1790932825.612956,
+    "ast_hash": "12eb0a5f900e62a122041a0115eafdd7",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_gpu_bs128_unfreeze2_amp_config.json": {
+    "mtime": 1780296072.7943285,
+    "seen": 1790932825.612956,
+    "ast_hash": "c032493f6375f2dfce0c70173621d8e0",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_gpu_bs128_unfreeze2_amp_data_audit.json": {
+    "mtime": 1780296072.6819165,
+    "seen": 1790932825.612956,
+    "ast_hash": "c5e18c1cff87e605d0c1c79f779df374",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_gpu_bs256_unfreeze2_amp_class_mapping.json": {
+    "mtime": 1780296210.9992988,
+    "seen": 1790932825.612956,
+    "ast_hash": "12eb0a5f900e62a122041a0115eafdd7",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_gpu_bs256_unfreeze2_amp_config.json": {
+    "mtime": 1780296211.001159,
+    "seen": 1790932825.612956,
+    "ast_hash": "b87a7d85324fc211ff59bfed26baeb56",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_gpu_bs256_unfreeze2_amp_data_audit.json": {
+    "mtime": 1780296210.8876493,
+    "seen": 1790932825.612956,
+    "ast_hash": "c5e18c1cff87e605d0c1c79f779df374",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_gpu_bs256_unfreeze2_amp_metrics.json": {
+    "mtime": 1780300000.0493772,
+    "seen": 1790932825.612956,
+    "ast_hash": "298db674a40768237741d94d0a74a24d",
+    "semantic_hash": ""
+  },
+  "learning/results/e0_mobilenetv3_large_gpu_bs256_unfreeze2_amp_ood_corruptions.json": {
+    "mtime": 1780322050.7558424,
+    "seen": 1790932825.612956,
+    "ast_hash": "421e86ba8d25ec87071f2c94a62a70b6",
+    "semantic_hash": ""
+  },
+  "learning/train.py": {
+    "mtime": 1780436171.6471283,
+    "seen": 1790932825.612956,
+    "ast_hash": "15e68037542b5fce8a8f5a4c0d5572d7",
+    "semantic_hash": ""
+  },
+  "legacy/Splitter/check_split_distribution.py": {
+    "mtime": 1780343691.220109,
+    "seen": 1790932825.612956,
+    "ast_hash": "e0061bbcd7c304f9073dcf116f612839",
+    "semantic_hash": ""
+  },
+  "legacy/Splitter/split_train_val.py": {
+    "mtime": 1780343690.9871757,
+    "seen": 1790932825.612956,
+    "ast_hash": "d1d793a6cab270adbba10451b069e661",
+    "semantic_hash": ""
+  },
+  "legacy/Splitter/summarize_split.py": {
+    "mtime": 1780343691.3368404,
+    "seen": 1790932825.612956,
+    "ast_hash": "0aaab65183cd1dcbefd9164611367635",
+    "semantic_hash": ""
+  },
+  "legacy/before/split_train_val.py": {
+    "mtime": 1780343691.1124208,
+    "seen": 1790932825.612956,
+    "ast_hash": "d1d793a6cab270adbba10451b069e661",
+    "semantic_hash": ""
+  },
+  "legacy/image_process/augment_train_images.py": {
+    "mtime": 1780343657.796266,
+    "seen": 1790932825.612956,
+    "ast_hash": "6b2fc3e6496e340e4ff927f91b183cae",
+    "semantic_hash": ""
+  },
+  "legacy/image_process/transform_images.py": {
+    "mtime": 1780343700.2151742,
+    "seen": 1790932825.612956,
+    "ast_hash": "1e847835e4f930f3eb4e2a5e642000eb",
+    "semantic_hash": ""
+  },
+  "legacy/temp.py": {
+    "mtime": 1780290539.0151443,
+    "seen": 1790932825.612956,
+    "ast_hash": "d44a03e2e883aab6dc2242eb5d2006ab",
+    "semantic_hash": ""
+  },
+  "model/mobilenetv3.py": {
+    "mtime": 1780350263.4028292,
+    "seen": 1790932825.612956,
+    "ast_hash": "124d669e87d1699bdc96bffbbf520bc6",
+    "semantic_hash": ""
+  },
+  "canonical/README.md": {
+    "mtime": 1780709949.876588,
+    "seen": 1790932825.612956,
+    "ast_hash": "6abf1ccbb454ea0bcefe7134e39b2957",
+    "semantic_hash": ""
+  },
+  "legacy/Plan.txt": {
+    "mtime": 1780290539.0046177,
+    "seen": 1790932825.612956,
+    "ast_hash": "587f7bac3dfef4dd67160456d9d4f447",
+    "semantic_hash": ""
+  },
+  "legacy/README.md": {
+    "mtime": 1780343509.7054217,
+    "seen": 1790932825.612956,
+    "ast_hash": "81263a4a4887c85607a3df754289f9bf",
+    "semantic_hash": ""
+  },
+  "legacy/Splitter/distribution_report.txt": {
+    "mtime": 1780293226.5497,
+    "seen": 1790932825.612956,
+    "ast_hash": "3c4f2254278a1e0d0c18ef683ce3cddd",
+    "semantic_hash": ""
+  },
+  "legacy/Splitter/distribution_summary.txt": {
+    "mtime": 1780344804.4969532,
+    "seen": 1790932825.612956,
+    "ast_hash": "b5cf4aa1d6780a0a86d764fc3aacbca5",
+    "semantic_hash": ""
+  },
+  "model/trainable_params.txt": {
+    "mtime": 1780435210.4881227,
+    "seen": 1790932825.612956,
+    "ast_hash": "9d09564049f85cd0c2ffbaea2fcd7e41",
+    "semantic_hash": ""
+  }
+}

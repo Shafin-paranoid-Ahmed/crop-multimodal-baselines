@@ -1,0 +1,9 @@
+{
+  "0": "train_fusion_strategies.py",
+  "1": "build_head",
+  "2": "E2 Fusion-Strategy Comparison — Run Commands",
+  "3": "main",
+  "4": "AttentionFusion",
+  "5": "BilinearFusion",
+  "6": "GatedFusion"
+}

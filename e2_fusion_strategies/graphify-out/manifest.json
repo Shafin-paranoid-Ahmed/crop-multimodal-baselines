@@ -1,0 +1,50 @@
+{
+  "results/fusion_attention_metrics.json": {
+    "mtime": 1790594957.5487902,
+    "seen": 1790932846.6244695,
+    "ast_hash": "9032421576ba090d6153ce0bba476933",
+    "semantic_hash": ""
+  },
+  "results/fusion_bilinear_metrics.json": {
+    "mtime": 1790594957.5775175,
+    "seen": 1790932846.6244695,
+    "ast_hash": "9a7444c8bfa841a89e925e0362e7cb31",
+    "semantic_hash": ""
+  },
+  "results/fusion_concat_b8_metrics.json": {
+    "mtime": 1790594957.6074204,
+    "seen": 1790932846.6244695,
+    "ast_hash": "d49b2ca94ae8a5d4bf4a609b8f8d238c",
+    "semantic_hash": ""
+  },
+  "results/fusion_concat_mlp_metrics.json": {
+    "mtime": 1790594957.6308362,
+    "seen": 1790932846.6244695,
+    "ast_hash": "2e37efbbf58defd7ded4dfa6da67eb54",
+    "semantic_hash": ""
+  },
+  "results/fusion_film_metrics.json": {
+    "mtime": 1790594957.6554942,
+    "seen": 1790932846.6244695,
+    "ast_hash": "661cdc28ffb58f7685115a9df519eb43",
+    "semantic_hash": ""
+  },
+  "results/fusion_gated_metrics.json": {
+    "mtime": 1790594957.6842456,
+    "seen": 1790932846.6244695,
+    "ast_hash": "6fe4e8182a656c7e6aa02090d9ae7783",
+    "semantic_hash": ""
+  },
+  "scripts/train_fusion_strategies.py": {
+    "mtime": 1790594957.722168,
+    "seen": 1790932846.6244695,
+    "ast_hash": "3784ffa37663e4ae12e21648e8940be0",
+    "semantic_hash": ""
+  },
+  "RUN_COMMANDS.md": {
+    "mtime": 1790594957.510799,
+    "seen": 1790932846.6244695,
+    "ast_hash": "518853c09a4453f627bb2e56cef5a1e1",
+    "semantic_hash": ""
+  }
+}

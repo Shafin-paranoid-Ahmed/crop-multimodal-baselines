@@ -1,0 +1,12 @@
+{
+  "omitted_smoke_bench_or_oversize_files": [],
+  "excluded_categories": [
+    "raw datasets",
+    "generated corrupted inputs",
+    "environment and model download caches",
+    "session/tool credentials and settings",
+    "legacy E0 preprocessing prototypes",
+    "unrelated research tracks",
+    "runtime logs and bytecode"
+  ]
+}

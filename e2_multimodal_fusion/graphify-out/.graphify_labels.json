@@ -1,0 +1,13 @@
+{
+  "0": "train_e2_fusion.py",
+  "1": "E2 Multimodal Fusion",
+  "2": "extract_e2_embeddings.py",
+  "3": "main",
+  "4": "main",
+  "5": "SplitImageDataset",
+  "6": "extract_image_embeddings",
+  "7": "extract_iot_embeddings",
+  "8": "E2FusionHead",
+  "9": "canonical/README.md",
+  "10": "__init__.py"
+}

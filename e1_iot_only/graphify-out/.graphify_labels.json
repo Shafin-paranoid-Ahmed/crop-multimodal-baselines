@@ -1,0 +1,9 @@
+{
+  "0": "E1: IoT-Only Baseline",
+  "1": "train_e1_iot_mlp.py",
+  "2": "generate_shared_splits.py",
+  "3": "evaluate_e1_checkpoint.py",
+  "4": "extract_iot_features.py",
+  "5": "main",
+  "6": "README.md"
+}

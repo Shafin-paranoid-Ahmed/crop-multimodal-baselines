@@ -6,11 +6,11 @@ strategies is provided to establish its competitiveness."*
 
 ## RUN OWNERSHIP
 
-**The agent never launches official runs.** Everything below is executed by the user.
-The agent has run only the smoke check (wiring validation, 2,048 rows, 1 epoch), whose
+**Official runs are launched manually.** Everything below is executed by the author.
+Only the smoke check has been run during implementation (wiring validation, 2,048 rows, 1 epoch), whose
 output is written to `fusion_strategy_summary_SMOKE.csv` and is **not reportable**.
 
-> No official fusion-strategy run was launched by the agent.
+> No official fusion-strategy run was launched during implementation.
 
 ## Environment: use `.venv-e1`
 
@@ -22,19 +22,19 @@ Verified 2026-09-26:
 | `.venv-gpu` | 3.12.10 | 2.11.0+cu128 | yes | **missing** | no |
 
 `.venv-gpu` also has no `Activate.ps1` — its `Scripts\` folder contains only
-`python.exe`, so it cannot be activated the usual way. `common/thesis_eval.py` imports
+`python.exe`, so it cannot be activated the usual way. `common/eval_metrics.py` imports
 scikit-learn, so `.venv-gpu` cannot run this script as-is. Use `.venv-e1`, which already
 has CUDA.
 
 ```powershell
-cd "G:\FOR THESIS\MAIN"
+cd "WORKSPACE"
 .\.venv-e1\Scripts\Activate.ps1
 ```
 
 Or skip activation and call the interpreter directly, which works from any shell state:
 
 ```powershell
-& "G:\FOR THESIS\MAIN\.venv-e1\Scripts\python.exe" <script> <args>
+& "WORKSPACE\.venv-e1\Scripts\python.exe" <script> <args>
 ```
 
 ## What this compares
@@ -56,12 +56,12 @@ The two controls must reproduce the published numbers (0.9734 Macro F1 for `conc
 0.9734 for `concat_b8`). **If they do not, stop** — the comparison is not trustworthy and
 nothing from the run should go in the paper.
 
-## Official runs (user executes)
+## Official runs (run manually)
 
 Pass 1 — like-for-like, every head at fusion width 128:
 
 ```powershell
-cd "G:\FOR THESIS\MAIN"
+cd "WORKSPACE"
 .\.venv-e1\Scripts\Activate.ps1
 python e2_fusion_strategies\scripts\train_fusion_strategies.py
 ```

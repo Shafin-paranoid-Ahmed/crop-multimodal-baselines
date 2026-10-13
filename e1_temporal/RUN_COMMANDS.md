@@ -7,10 +7,10 @@ The paper now argues the case in Section III. This experiment settles it with a 
 
 ## RUN OWNERSHIP
 
-**The agent never launches official runs.** Everything below is executed by the user.
-The agent ran only smoke checks (1,500 rows, 1 epoch) and deleted their outputs.
+**Official runs are launched manually.** Everything below is executed by the author.
+Only smoke checks (1,500 rows, 1 epoch) were run during implementation, and their outputs were deleted.
 
-> No official temporal-encoder run was launched by the agent.
+> No official temporal-encoder run was launched during implementation.
 
 ## Environment
 
@@ -18,7 +18,7 @@ Use `.venv-e1` (torch 2.11.0+cu128 with CUDA, sklearn, pandas). `.venv-gpu` lack
 scikit-learn and has no activation script.
 
 ```powershell
-cd "G:\FOR THESIS\MAIN"
+cd "WORKSPACE"
 .\.venv-e1\Scripts\Activate.ps1
 ```
 
@@ -45,7 +45,7 @@ naive LSTM on these files would be misleading:
   Note that the published E1 already excludes length: `n_rows` is in `META_COLS`,
   not in the 54 features.
 
-## Step 1: build the sequence cache (user executes)
+## Step 1: build the sequence cache (run manually)
 
 ```powershell
 python e1_temporal\scripts\build_sequence_cache.py
@@ -59,7 +59,7 @@ control see the same underlying values.
 At L=294 only 0.2% of train and 13.5% of test windows are truncated, and truncation
 keeps the **most recent** readings.
 
-## Step 2: train and compare (user executes)
+## Step 2: train and compare (run manually)
 
 ```powershell
 python e1_temporal\scripts\train_temporal_e1.py

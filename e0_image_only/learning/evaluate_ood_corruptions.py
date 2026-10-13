@@ -32,7 +32,7 @@ from torchvision.transforms import InterpolationMode
 from config import MODEL_DIR, TEST_CSV, TEST_DIR, TRAIN_IMAGE_SUFFIX
 from model.mobilenetv3 import MobileNetV3Classifier
 
-from common.thesis_eval import expected_calibration_error, stage_recall
+from common.eval_metrics import expected_calibration_error, stage_recall
 
 
 CANONICAL_E0_RUN = "e0_bs768_mobilenetv3large"

@@ -16,7 +16,7 @@ Linear(1344,128) -> BatchNorm1d(128) -> ReLU -> Dropout(0.1) -> Linear(128,25)
 Run from repo root:
 
 ```powershell
-& "G:\FOR THESIS\MAIN\.venv-e1\Scripts\python.exe" "e2_canonical_128_25\scripts\train_e2_128_25.py" --run-name e2_canonical_128_25 --batch-size 512 --epochs 60 --patience 8 --lr 0.001 --weight-decay 0.0001
+& "WORKSPACE\.venv-e1\Scripts\python.exe" "e2_canonical_128_25\scripts\train_e2_128_25.py" --run-name e2_canonical_128_25 --batch-size 512 --epochs 60 --patience 8 --lr 0.001 --weight-decay 0.0001
 ```
 
 Outputs:

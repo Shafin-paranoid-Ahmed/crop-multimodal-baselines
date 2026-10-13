@@ -14,7 +14,7 @@ Three properties of the source files matter and are handled explicitly here:
    (coerce to numeric, forward fill, back fill, median, then zero), so the
    temporal models and the E1 control see the same underlying values.
 
-Runs are launched by the user. See e1_temporal/RUN_COMMANDS.md.
+Runs are launched by the author. See e1_temporal/RUN_COMMANDS.md.
 """
 import argparse
 import csv

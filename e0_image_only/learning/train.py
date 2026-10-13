@@ -31,7 +31,7 @@ from torch.utils.data import DataLoader, Dataset
 from torchvision.io import ImageReadMode, read_image
 from torchvision.transforms import InterpolationMode
 
-from common.thesis_eval import (
+from common.eval_metrics import (
     count_trainable_params,
     metrics_dict,
     per_class_metrics,

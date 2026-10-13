@@ -17,7 +17,7 @@ for _p in (PROJECT_ROOT, E2_SCRIPTS):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
 
-from common.thesis_eval import metrics_dict, per_class_metrics, save_confusion_matrix, save_predictions  # noqa: E402
+from common.eval_metrics import metrics_dict, per_class_metrics, save_confusion_matrix, save_predictions  # noqa: E402
 from train_e2_fusion import load_embedding_manifest, load_split, make_loader, predict, set_seed, train_one_epoch  # noqa: E402
 
 FUSED_DIM = 1344

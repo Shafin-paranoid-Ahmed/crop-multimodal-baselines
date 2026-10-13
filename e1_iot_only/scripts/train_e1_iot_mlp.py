@@ -19,7 +19,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from common.models import E1MLP
-from common.thesis_eval import (
+from common.eval_metrics import (
     count_trainable_params,
     metrics_dict,
     save_confusion_matrix,

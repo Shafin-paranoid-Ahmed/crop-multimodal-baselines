@@ -136,7 +136,7 @@ k, report total and post-bottleneck counts explicitly because k*k and 4k differ.
 
 ## 7. Required metrics for every E2/E3 comparison
 
-Scored with the shared `common/thesis_eval.py` logic so E2 and E3 are byte-identical:
+Scored with the shared `common/eval_metrics.py` logic so E2 and E3 are byte-identical:
 
 ```text
 accuracy
@@ -158,6 +158,6 @@ post_bottleneck_trainable_params
 - A 4-qubit `default.qubit` simulator is slow at full-dataset scale; budget time
   accordingly or precompute on the frozen embeddings (no image forward passes are
   needed because embeddings are cached).
-- If E3-4 does not beat E2-matched on Macro F1, the thesis still reports
+- If E3-4 does not beat E2-matched on Macro F1, the project still reports
   early-stage recall, calibration (ECE), robustness, parameter efficiency, and
   training stability per the master plan interpretation map.

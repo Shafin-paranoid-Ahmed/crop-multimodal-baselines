@@ -17,7 +17,7 @@ The control must reproduce the published E1 Macro F1 of 0.883370. If it does
 not, the comparison is not trustworthy and nothing from the run belongs in the
 paper.
 
-Runs are launched by the user. See e1_temporal/RUN_COMMANDS.md.
+Runs are launched by the author. See e1_temporal/RUN_COMMANDS.md.
 """
 import argparse
 import io
@@ -39,7 +39,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from common.models import E1MLP  # noqa: E402
-from common.thesis_eval import (  # noqa: E402
+from common.eval_metrics import (  # noqa: E402
     count_trainable_params,
     metrics_dict,
     per_class_metrics,

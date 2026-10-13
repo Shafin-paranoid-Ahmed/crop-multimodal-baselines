@@ -18,7 +18,7 @@
   "image_size": 224,
   "image_suffix": "_224",
   "augmentation": true,
-  "train_csv": "G:\\FOR THESIS\\MAIN\\e0_image_only\\Data\\train.csv",
-  "val_csv": "G:\\FOR THESIS\\MAIN\\e0_image_only\\Data\\val.csv",
-  "test_csv": "G:\\FOR THESIS\\MAIN\\e0_image_only\\Data\\test.csv"
+  "train_csv": "WORKSPACE\\e0_image_only\\Data\\train.csv",
+  "val_csv": "WORKSPACE\\e0_image_only\\Data\\val.csv",
+  "test_csv": "WORKSPACE\\e0_image_only\\Data\\test.csv"
 }

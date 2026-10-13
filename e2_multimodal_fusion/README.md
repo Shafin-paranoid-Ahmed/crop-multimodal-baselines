@@ -1,6 +1,6 @@
 # E2 Multimodal Fusion
 
-Frozen-encoder classical image + IoT fusion baseline for the thesis experiment sequence.
+Frozen-encoder classical image + IoT fusion baseline for the project experiment sequence.
 
 > Canonical run: `e2_bs512_fusionmlp`, a frozen snapshot in `e2_multimodal_fusion/canonical/`
 > (see `docs/by_stage/03_baselines_e0_e1_e2/CANONICAL_RUNS.md`). Training still writes regular experiment outputs, but

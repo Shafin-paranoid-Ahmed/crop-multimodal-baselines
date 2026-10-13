@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 # ==============================================================================
-# Thesis Repository Directory Configuration
+# Project Repository Directory Configuration
 # ==============================================================================
 
 # Experiment and project roots
@@ -44,7 +44,7 @@ VSCODE_DIR = REPO_ROOT / ".vscode"
 # ==============================================================================
 if __name__ == "__main__":
     print("-" * 60)
-    print("Thesis Repository Directory Configuration")
+    print("Project Repository Directory Configuration")
     print("-" * 60)
     print(f"REPO_ROOT:      {REPO_ROOT}")
     print(f"PROJECT_ROOT:   {PROJECT_ROOT}")

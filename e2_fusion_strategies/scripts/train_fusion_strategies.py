@@ -18,7 +18,7 @@ Heads:
   bilinear    low-rank bilinear pooling of the two projected modalities
   film        sensor branch modulates the image branch (FiLM, Perez et al. 2018)
 
-Usage is in e2_fusion_strategies/RUN_COMMANDS.md. Runs are launched by the user.
+Usage is in e2_fusion_strategies/RUN_COMMANDS.md. Runs are launched by the author.
 """
 import argparse
 import json
@@ -38,7 +38,7 @@ PROJECT_ROOT = EXPERIMENT_ROOT.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from common.thesis_eval import (  # noqa: E402
+from common.eval_metrics import (  # noqa: E402
     count_trainable_params,
     metrics_dict,
     per_class_metrics,

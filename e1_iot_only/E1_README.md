@@ -4,7 +4,7 @@
 
 This README preserves the original E1 design notes. The active canonical E1 run
 is `e1_bs512_mlp128x64`, copied from `e1_h128_64_nodrop_wd_bs512_sched` into
-`e1_iot_only/canonical/`. For thesis comparisons, use
+`e1_iot_only/canonical/`. For project comparisons, use
 `docs/by_stage/03_baselines_e0_e1_e2/CANONICAL_RUNS.md` and
 `docs/by_stage/03_baselines_e0_e1_e2/E0_E1_E2_RESULTS_COMPARISON.md`.
 
@@ -19,7 +19,7 @@ Key current differences from the early plan below:
 
 ## Purpose
 
-E1 is the IoT-only baseline for the thesis.
+E1 is the IoT-only baseline for the project.
 
 It uses only the environmental sensor CSV files from the Dacon dataset and does not use crop images. The goal is to measure how much predictive signal exists in the IoT stream alone.
 
@@ -36,7 +36,7 @@ E1 is not expected to be the strongest model. Its purpose is to provide a clean 
 Main dataset location:
 
 ```text
-G:\FOR THESIS\MAIN\Data
+WORKSPACE\Data
 ```
 
 Manifest files:
@@ -501,7 +501,7 @@ Primary metric:
 Macro F1
 ```
 
-Thesis-critical metric:
+Project-critical metric:
 
 ```text
 Early-stage recall
@@ -531,7 +531,7 @@ If E2 does not beat E0:
     The IoT branch may be adding noise or leakage needs to be checked.
 ```
 
-## Notes for Thesis Writing
+## Notes for Project Writing
 
 E1 should be described as a sensor-only baseline.
 
